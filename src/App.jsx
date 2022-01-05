@@ -2,7 +2,8 @@ import {
   CssModules,
   InlineStyle,
   StyledComponents,
-  StyledJsx
+  StyledJsx,
+  Emotion
 } from "./components";
 import "./styles.css";
 
@@ -13,6 +14,7 @@ export default function App() {
       <CssModules />
       <StyledJsx />
       <StyledComponents />
+      <Emotion />
     </div>
   );
 }
