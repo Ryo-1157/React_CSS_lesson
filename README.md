@@ -1,2 +1,2 @@
-# React_CSS_lesson
+# React_lesson
 Created with CodeSandbox
