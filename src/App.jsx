@@ -6,14 +6,15 @@ import {
   Emotion
 } from "./components";
 import "./styles.css";
+import Data from "./text.json";
 
 export default function App() {
   return (
     <div className="App">
-      <InlineStyle />
-      <CssModules />
-      <StyledJsx />
       <StyledComponents />
+      <InlineStyle />
+      <CssModules text={Data.top.service.hotel.midashi} fightText="hhhhhhh" />
+      <StyledJsx />
       <Emotion />
     </div>
   );
