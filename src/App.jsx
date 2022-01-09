@@ -13,7 +13,10 @@ export default function App() {
     <div className="App">
       <StyledComponents />
       <InlineStyle />
-      <CssModules text={Data.top.service.hotel.midashi} fightText="hhhhhhh" />
+      <CssModules
+        text={Data.top.service.hotel.midashi}
+        fightText={Data.top.service.hotel.button}
+      />
       <StyledJsx />
       <Emotion />
     </div>

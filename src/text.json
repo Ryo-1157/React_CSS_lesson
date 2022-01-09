@@ -2,7 +2,8 @@
   "top": {
     "service": {
       "hotel": {
-        "midashi": "hogehoge"
+        "midashi": "hogehoge",
+        "button": "this is button"
       }
     }
   }
