@@ -35,7 +35,7 @@ const SButton = styled.button`
     padding: 8px;
     border-radius: 8px;
     cursor: pointer;
-    transition: all .3s;
+    transition: all .5s;
     &:hover{
       background-color: #46cdcf;
       color: #fff;
